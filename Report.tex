@@ -61,24 +61,57 @@ This article is going to review the agile retrospective with the aim of increasi
 Basing this article on semantic review our data collection is done by several stages: Searching for articles through well acknowledged sources, excluding irrelevant hits and assessing the remainder. Each stage will be described in detail in the following subsections.
 
 \subsection{Searching and obtaining}
-Before searching the authors decided between them a set of keywords which were to be used as the searching word. See \autoref{table:keywords}.
+Before searching the authors decided between them a set of keywords which were to be used as the searching word. The selection of words was aimed towards the agile retrospective, but as the name of this practice has changed over the years we also included Post Mortem. Trying to get a bigger set of data we also included general keywords from the field such as agile practices as articles can be poorly named or described, but still be relevant for this study. With these thoughts in mind we ended up with a set of relevant keywords as can be seen in \autoref{table:keywords}.
 
 \begin{table}[!h]
 	\begin{center}
 		\begin{tabular}{ l }
 			Keywords: \\ \hline
-			Agile \\
 			Agile Practices \\
 			Retrospective \\
-			Retrospective Scrum \\
-			Retrospective Agile \\
 			Post Mortem \\
-			Post Mortem Agile \\
 		\end{tabular}
 		\caption{Keywords used in searching databases}
 		\label{table:keywords}
 	\end{center}
 \end{table}
+
+When the list of keywords were complete the selection of databases were decided upon. The criteria for the databases were based upon trying to get a wide span of hits going. This resulted in 2 tools used, Web of science and Scopus,  These tools were selected as they had plentiful of search options and between them covered a wide set of journals, see \autoref{table:tools}. 
+
+\begin{table}[!h]
+	\begin{center}
+		\begin{tabular}{ l | l}
+			Tool: & Journals: \\ \hline
+			Webofscience & ACM \\ 
+			& IEEE \\
+			& ++1400 others \\
+			\hline
+			Scopus & ACM \\ 
+			& IEEE \\
+			& ++5000 others
+		\end{tabular}
+		\caption{The tools used for data gathering and some well know}
+		\label{table:tools}
+	\end{center}
+\end{table}
+
+Having selected the set of keywords and tools to use the searching began. Using the boolean operators of AND and OR one search was conducted using each tool. The search string given was the following: 
+\begin{center}
+	\emph{"Retrospective AND software development OR post mortem AND software development OR agile practices AND software development"}
+\end{center}
+This resulted in a big data set that were exported to a text file that could be taken to the filtering process.
+
+\subsection{Filtering process}
+The amount of articles from the search was huge so excluding articles that weren't relevant had to be included as a step in the research. This was done in several steps described below.
+
+As the first step of the excluding process the tools automatic filtering of research area was applied. The area we selected was computer science as all other areas are not relevant for this paper. The result of this filtering left us with 1104 articles too continue with. 
+
+The next step of the filtering process was exclude too all articles that wasn't relevant to our research. The articles had the following excluding criteria: 
+
+\begin{enumerate}
+	\item Exclude if the article isn't an empirical study. Lessons learned articles, conference articles and books are in many cases not peer reviewed and we dismiss this as we wish this article to be based on high quality research.
+	\item Exclude if the article clearly isn't within the research area of this article. This paper has focus on the software development processes and all articles focusing on technical aspects of software engineering or is in other research area than software development are not relevant. 
+\end{enumerate}
 
 \clearpage
 
