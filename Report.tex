@@ -60,7 +60,7 @@ This article is going to review the agile retrospective with the aim of increasi
 \section{Data Collection and searching strategy}
 Basing this article on semantic review our data collection is done by several stages: Searching for articles through well acknowledged sources, excluding irrelevant hits and assessing the remainder. Each stage will be described in detail in the following subsections.
 
-\subsection{Searching and obtaining}
+\subsection{Searching}
 Before searching the authors decided between them a set of keywords which were to be used as the searching word. The selection of words was aimed towards the agile retrospective, but as the name of this practice has changed over the years we also included Post Mortem. Trying to get a bigger set of data we also included general keywords from the field such as agile practices as articles can be poorly named or described, but still be relevant for this study. With these thoughts in mind we ended up with a set of relevant keywords as can be seen in \autoref{table:keywords}.
 
 \begin{table}[!h]
@@ -70,25 +70,28 @@ Before searching the authors decided between them a set of keywords which were t
 			Agile Practices \\
 			Retrospective \\
 			Post Mortem \\
+			Software Development \\
 		\end{tabular}
 		\caption{Keywords used in searching databases}
 		\label{table:keywords}
 	\end{center}
 \end{table}
 
-When the list of keywords were complete the selection of databases were decided upon. The criteria for the databases were based upon trying to get a wide span of hits going. This resulted in 2 tools used, Web of science and Scopus,  These tools were selected as they had plentiful of search options and between them covered a wide set of journals, see \autoref{table:tools}. 
+When the list of keywords were complete the selection of databases were decided upon. The criteria for the databases were based upon trying to get a wide span of hits going. This resulted in 2 tools used, Web of science and Scopus, These tools were selected as they had plentiful of search options and between them covered a wide set of journals, see \autoref{table:tools}. 
 
 \begin{table}[!h]
 	\begin{center}
-		\begin{tabular}{ l | l}
+		\begin{tabular}{ l | p{0.75\textwidth}}
 			Tool: & Journals: \\ \hline
-			Webofscience & ACM \\ 
-			& IEEE \\
-			& ++1400 others \\
+			Webofscience & Information and Software Technology \\ 
+			& Software Quality Journal \\
+			& International Journal of Information Technology \& Decision making \\
+			& ++1400 more \\
 			\hline
-			Scopus & ACM \\ 
-			& IEEE \\
-			& ++5000 others
+			Scopus & Information and Software Technology \\ 
+			& IEEE Software\\
+			& Journal of Systems and Software \\
+			& ++5000 others \\
 		\end{tabular}
 		\caption{The tools used for data gathering and some well know}
 		\label{table:tools}
@@ -99,19 +102,37 @@ Having selected the set of keywords and tools to use the searching began. Using 
 \begin{center}
 	\emph{"Retrospective AND software development OR post mortem AND software development OR agile practices AND software development"}
 \end{center}
-This resulted in a big data set that were exported to a text file that could be taken to the filtering process.
+This search resulted in 1,754 papers that could be relevant for our research.
 
-\subsection{Filtering process}
-The amount of articles from the search was huge so excluding articles that weren't relevant had to be included as a step in the research. This was done in several steps described below.
+\subsection{Excluding irrelevant articles}
+Excluding articles not relevant for our research became the next step in obtaining data for this literature review. The criteria for exclusion can be found in \autoref{table:datacriteria}. \\
 
-As the first step of the excluding process the tools automatic filtering of research area was applied. The area we selected was computer science as all other areas are not relevant for this paper. The result of this filtering left us with 1104 articles too continue with. 
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{l p{0.75\textwidth}}
+		 	\multicolumn{2}{l}{Exclusion criteria}\\
+		 	\hline
+			1. & Exclude if the article have research domain other than computer science. \\
+			2. & Exclude if the article isn't an empirical study. Lessons learned articles, conference articles and books are in many cases not peer reviewed and we dismiss this as we wish this article to be based on high quality research. \\
+			3. & Exclude if the article clearly isn't within the research area of this article. This paper has focus on the software development processes and all articles focusing on technical aspects of software engineering or is in other research area than software development are not relevant. \\
+			4. & Exclude article if the focus isn't practices used in software development. \\
+		\end{tabular}
+		\caption{Exclusion criteria for articles}
+		\label{table:datacriteria}
+	\end{center}
+\end{table}
 
-The next step of the filtering process was exclude too all articles that wasn't relevant to our research. The articles had the following excluding criteria: 
+Starting with 1,754 papers the first step was to apply automatic filtering on research area given by the searching tools. The area we selected was computer science as all other areas are not relevant for this paper. The result of this filtering left us with 801 articles too continue with. \\
 
-\begin{enumerate}
-	\item Exclude if the article isn't an empirical study. Lessons learned articles, conference articles and books are in many cases not peer reviewed and we dismiss this as we wish this article to be based on high quality research.
-	\item Exclude if the article clearly isn't within the research area of this article. This paper has focus on the software development processes and all articles focusing on technical aspects of software engineering or is in other research area than software development are not relevant. 
-\end{enumerate}
+The next step in the filtering process was to exclude all papers not being peer-reviewed articles. This was also done by the searching tools automatic filtering. The article types we excluded were books, conference papers and reviews. This resulted in 266 articles left. \\
+
+Having obtained 266 articles of potential relevance for this review, excluding articles not fitting our needs became the next step. First we excluded based on title. If the title clearly described the article as not focusing on the development practices it were excluded, i.e. if an article clearly focused on a technical aspect of some computer system it were excluded. This resulted in 119 articles left in our data collection. \\
+
+Standing left with 119 articles we started reading through the abstracts to excluding articles not focusing on the practices used in agile development. The focus of this paper is to bring a better overview of the agile retrospective and papers that focuses on the implementation of agile development or agile development as a part of a project become irrelevant. In the cases were the authors were uncertain about a papers focus, we discussed what potential parts could be relevant and if this didn't give us a result we quickly skimmed the article and looked for potential relevance. If not relevance were found we dismissed the article. This resulted in 48 articles that could be deemed relevant. \\
+
+Finally the filtering resulted in 48 peer-reviewed articles that were relevant to our research area of agile retrospectives. 
+
+\subsection{Article selection}
 
 \clearpage
 
