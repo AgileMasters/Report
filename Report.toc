@@ -8,10 +8,12 @@
 \contentsline {subsection}{\numberline {2.3}Article selection}{6}{subsection.2.3}
 \contentsline {part}{III\hspace {1em}Results}{7}{part.3}
 \contentsline {section}{\numberline {3}Practices of the Agile Retrospective}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Before the retrospective}{7}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Preparing the retrospective}{7}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1}Before the Retrospective}{7}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Preparing the Retrospective}{7}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Who to bring?}{7}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}During the retrospective}{7}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}After the retrospective}{7}{subsection.3.3}
-\contentsline {section}{\numberline {4}Enthusiasm for the Agile Retrospective}{7}{section.4}
-\contentsline {part}{IV\hspace {1em}Discussion}{8}{part.4}
+\contentsline {subsection}{\numberline {3.2}During the Retrospective}{7}{subsection.3.2}
+\contentsline {paragraph}{KJ-sessions}{7}{section*.2}
+\contentsline {paragraph}{}{8}{section*.3}
+\contentsline {subsection}{\numberline {3.3}After the retrospective}{8}{subsection.3.3}
+\contentsline {section}{\numberline {4}Enthusiasm for the Agile Retrospective}{8}{section.4}
+\contentsline {part}{IV\hspace {1em}Discussion}{9}{part.4}
