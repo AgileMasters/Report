@@ -151,19 +151,53 @@ One of our main findings reading through the selected article where that there a
 \subsubsection{Who to bring?}
 
 \subsection{During the Retrospective}
-The second phase of a complete agile retrospective is conducting the retrospective meeting. Here our literature review found that several different techniques were used in practices. Following we will describe techniques used and suggested by the research literature. 
+The second phase of a complete agile retrospective is conducting the retrospective meeting. Here our literature review found that several different techniques were used in practices. Following we will describe techniques used and suggested by the research literature, before we compare them. 
 
+\subsubsection{Techniques Identified}
 \paragraph{KJ-sessions}
-KJ-sessions are often mentioned in the articles. Dingsøyr, Moe and Nytrø~\cite{Moe} describes how they conducted a KJ-session: 
+KJ-sessions are often mentioned in the articles. Dingsøyr, Moe and Nytrø~\cite{Moe2001} describes how they conducted a KJ-session: 
 \begin{quote} We usead a technique named after a Japanese ethnologist, Jiro Kawakita - called \"the KJ-method\". For each of these sessions, we give the participants a set of post-it notes, and ask them to write one \"issue\" on each. We usually hand out between three and five notes per person, depending on the number of participants. After some minutes, we ask one of them to attach one note to a whiteboard and say why this issue was important. Then the next person would present a note and so on until all the notes are on the whiteboard. The notes are then grouped, and each group is given a new name. 
 \end{quote}
-This description is very much similar with description given by other researcher with only minor differences. Such as the number of post-it notes varying or instead of giving a fixed number of post-it notes one give the participants a fixed time to finish writing down the issues. Following a KJ-session there are cause analysis sessions, as the KJ-method only identifies the issues rather than analyze them. We will describe different cause analysis techniques later. 
+This description is very much similar with description given by other researcher with only minor differences. Such as the number of post-it notes varying or instead of giving a fixed number of post-it notes one give the participants a fixed time to finish writing down the issues. Following a KJ-session there are cause analysis sessions, as the KJ-method only identifies the issues rather than analyze them. We describe different cause analysis techniques below. 
 
-\paragraph{}
-\todo{Write about the feedbacks}
+\paragraph{Keep, Problem, Try}
+Keep, Problem, Try, also known as KPT, is described by Kinoshita~\cite{Kinoshita2008} and works as follows: One split a whiteboard into three areas. One for Keep, one for Problem and one for Try. The session follows with the participants writing down positive feelings on the Keep area of the board, negative feelings on the Problem area. Finally the last area is filled with Try items that one tries to do in the next iteration of the project. This gives the opportunity that the team obtains feedback from oneself, according to Kinoshita. 
 
+\paragraph{Estimation Retrospective}
+Estimation Retrospective is another technique mentioned by Kinoshita~\cite{Kinoshita2008}. This technique evaluates the time estimation for the current development iteration. The process is to go through each task and control whether the time estimate is close to actual time used. If there any differences one discuss possible causes for this. The results are then used when estimating for the next retrospective. Kinoshita described how they used a whiteboard to visualize the estimations; All tasks using the estimated time would be placed in the middle, while those using shorter would be placed to left side and those exceeding the estimation on the right. 
 
-\subsection{After the retrospective}
+\paragraph{Positive Strokes}
+Positive strokes are a technique used during special events such as releases or exchange of members, according to Kinoshita~\cite{Kinoshita2008}. Its focus is to give each individual member a positive feedback from the rest of development team. They it works is that every member gets a card which they write their name on. The card is then passed around and each member write a positive comment about the owner of the card. The card are then returned to the owner. 
+
+\paragraph{Timelines}
+\todo{ALF: Write about}
+
+\paragraph{Fishbone diagram - Ishikawa diagram}
+One of the cause analysis methods used is the Ishikawa diagram, commonly known as fishbone diagram. Dingsøyr~\cite{Dingsoyr2005} describes the process of fishbone diagrams as follows:
+\begin{quote} The process leader draws an arrow on a whiteboard indicating the issue being discussed, and attach other arrows to this one like in a fishbone with issues the participants think are causing the first issue. Sometimes, also underlying reasons for some of the main causes are attached as well.
+\end{quote}
+In \autoref{figure:fishbone-example} we give an example on how the issue late for work could be represented through a fishbone diagram. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/fishbone-example.png}
+	\caption{Fishbone diagram showing the cause analysis of the issue of arriving late for work.}
+	\label{figure:fishbone-example}
+\end{figure}
+
+\paragraph{Causal Map Analysis}
+Bjørnson, Wang and Arisholm~\cite{Wang2012} proposes an alternative to fishbone diagrams in the form of causal map analysis. This is conducted in a similar way to the KJ-sessions, described above. The participants are given post-it notes on which they separately write down the causes of the issue the group is analyzing. They each then present their causes for the rest. When all causes are up on the whiteboard the participants together group the causes were able before they draw cause-effects relationships between the causes indicated by arrows. The group then are allowed to write new notes finding deeper or missing causes and place them in the map. This process continues until the participants are satisfied with the analysis. \autoref{figure:causalmap-example} gives an example of a causal map identifying the causes of the issue of arriving late for work.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/causalmap-example.png}
+	\caption{Causal map showing the cause analysis of the issue of arriving late for work.}
+	\label{figure:causalmap-example}
+\end{figure}
+
+\subsubsection{Which Technique to Use?}
+ 
+\subsection{After the Retrospective}
 
 \section{Enthusiasm for the Agile Retrospective}
 
@@ -172,6 +206,6 @@ This description is very much similar with description given by other researcher
 \part{Discussion}
 \clearpage
 
-\bibliography{AlfogbjornAgile-Finalselection}
+\bibliography{references}
 \bibliographystyle{plain}
 \end{document}
