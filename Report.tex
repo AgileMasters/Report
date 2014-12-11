@@ -107,7 +107,7 @@ When the list of keywords were complete the selection of databases were decided 
 		\end{tabular}
 	\end{center}
 \end{table}
-
+			
 Having selected the set of keywords and tools to use the searching began. Using the boolean operators of AND and OR one search was conducted using each tool. The search string given was the following: 
 \begin{center}
 	\emph{"Retrospective AND software development OR post mortem AND software development OR agile practices AND software development"}
@@ -143,6 +143,8 @@ Left with 119 articles standing we started reading through the abstracts to excl
 Finally the filtering resulted in 48 peer-reviewed articles that were relevant to our research area of agile retrospectives. 
 
 \subsection{Article selection}
+
+
 
 \clearpage
 
@@ -197,9 +199,17 @@ The results from our literature review presented us with two primary views on ho
 \section{Practices of the Agile Retrospective}
 One of our main findings reading through the selected article where that there are many ways to conduct a retrospective. Categorizing our findings we ended up with three phases a retrospective contains. These three are: before, during and after the retrospective meeting. We will go through each of these phases presenting our findings.
 
-\subsection{Before the Retrospective}
+\Section{Before the Retrospective}
+In this section we go through the work needed to be perfomed before the retrospective. This is arranged in both practical tasks as well as principles that should be kept in mind in order to hold a successfull retrospective. The tasks discussed are ``Wish to improve'', ``Declaring a goal'', ``Participants'', ``Collect objective data'' and ``Which technique to use''. 
+
+
+\Subsection{Wish to improve}
+The retrospective is conducted out on an interestet to improve the processes in an orginization, and deciding to use the retrospective as a tool. Dingsoyr~\cite{Dingsoyr2005} describes the retrospecive as a method for organisational learning. So the holding of a retrospective need to be based on a wish to improve through organisational learning. 
+
+\Subsction{Declaring a goal}
 A retrospective is not a self contained activity, and there are multiple actions that can be taken before and after the actual retrospective in order to ensure a successful. Dingsøyr~\cite{Dingsoyr2005} lays out a set of steps for conducting a postmortem review. The first step is the project head deciding to hold the retrospective, followed by the declaring this intent to the project. Thereafter the participants for the exercise should be selected. Then work to prepare for the retrospective can then begin.
- 
+
+\subsection{Gather Data}
 The work done before the retrospective should be focused on gathering objective data, and the relevant context concerning the data. Dingsøyr, Birk and Stålhane~\cite{Moe2001}  describe how one should include both positive and negative data. A retrospective should not be wholly focused on the positive and negative aspects of a project, this should be reflected in the gathering of data. There are different ways of gathering information. Collier, DeMarco and Fearey~\cite{Collier1996} describes the need for a defined process, suggesting starting with a survey to gather objective information. The survey is chosen because it is possible to be a quick low investment option where the project team's input can be gathered in a wide range of projects. Especially large projects can benefit from electrionic surveys, as it can allow the gathering of large volumes of timely feedback. Surveys also provide anonymity, giving participants more room to be honest. Another option is to interview a sample of the participants or stakeholders in the project. This is a usually a more time intensive method and more resource intensive. Interviews are a very powerful information gathering tool, allowing the interviewee to share data with a personal context and connection. A benefit of interviewing is the possibility of gathering points of view and data from relevant sources who will not attend the actual retrospective. This might include customers, managers or team members with other commitments. Another potential data collection method is monitoring and observing the project as it develops taking time stamped pieces of data for later use, this might for example include copies of email or other communication. 
 
 \subsubsection{Preparing the Retrospective}
@@ -236,17 +246,29 @@ Estimation Retrospective is another technique mentioned by Kinoshita~\cite{Kinos
 Positive strokes are a technique used during special events such as releases or exchange of members, according to Kinoshita~\cite{Kinoshita2008}. Its focus is to give each individual member a positive feedback from the rest of development team. They it works is that every member gets a card which they write their name on. The card is then passed around and each member write a positive comment about the owner of the card. The card are then returned to the owner. 
 
 \paragraph{Timelines}
-In an agile retrospective the Timeline exercise is an exercise aimed at supporting the evaluation of the issues and changes within a project. Bjarnson and Regnell~\cite{Bjarnason2012} describes how timelines should be based on evidence, and that this evidence should be time-stamped data that is collected through available systems in the environment of the project. The need need for evidence is because the memory of a participant can be biased or incorrect. In preperation for the timeline activity the timeline should be sent out to the participants of the retrospective, along with a set of reports that will be discussed during the actual retrospective. As the retrospective begins the history of the project is visualized, typically by posting the timeline created on a wall or blackboard, this timeline usually goes from the start of the project, to the end. The timeline could also be tailored to just contain a sprint, iteration or release within the project. As issues and events are placed on the timeline they are discussed by the participants of the retrospective. The participants themself should correct incorrect events, as well as add their own if needed. As the timeline is corrected and clarification added the meeting produces a timeline of events and issues that the relevant participants agree upon. The patterns and tendencies that emerege from the project timeline are then considered and evaluated in order to facilitate potential improvements. As multiple timelines are produced using the same template, over time this makes comparision analysis simpler. 
 
 Derby et al. ~\cite{Derby2007} describes a process for a timeline activity, where the time spent is from thirty to ninety minutes. During the actual activity the retrospective leader should encourage all participants to engange in the discussion, with the goal of seeing the project from many perspective. The participants of the retrospective should be divided into multiple groups, where every member gets markers, and post it notes. The participants should then write their own issues during the project. These should be written down on color coded post its, where the color relates to a feeling or emotional state. Alternatively  the colors can represent events, functions or themes. When the groups are done filling out their post its, place them on the timeline. Let all the participants look at the created timeline, before taking a break or lunch. After the break the group should analyze the timeline, looking for interesting patterns that can be used for future improvements.
 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.7\textwidth]{figures/Timeline-Example.png}
-	\caption{A very simple timeline showing a set of different issues over time}
+	\includegraphics[width=1\textwidth]{figures/Timeline-Example.png}
+	\caption{A very simple timeline showing a set of different issues over time, where the issues are color coded}
 	\label{figure:Timeline-Example}
 \end{figure}
+
+
+\paragraph{Evidence based Timelines}
+
+In an agile retrospective the Timeline exercise is an exercise aimed at supporting the evaluation of the issues and changes within a project. Bjarnson and Regnell~\cite{Bjarnason2012} describes how timelines should be based on evidence, and that this evidence should be time-stamped data that is collected through available systems in the environment of the project. The need need for evidence is because the memory of a participant can be biased or incorrect. In preperation for the timeline activity the timeline should be sent out to the participants of the retrospective, along with a set of reports that will be discussed during the actual retrospective. As the retrospective begins the history of the project is visualized, typically by posting the timeline created on a wall or blackboard, this timeline usually goes from the start of the project, to the end. The timeline could also be tailored to just contain a sprint, iteration or release within the project. As issues and events are placed on the timeline they are discussed by the participants of the retrospective. The participants themself should correct incorrect events, as well as add their own if needed. As the timeline is corrected and clarification added the meeting produces a timeline of events and issues that the relevant participants agree upon. The patterns and tendencies that emerege from the project timeline are then considered and evaluated in order to facilitate potential improvements. As multiple timelines are produced using the same template, over time this makes comparision analysis simpler. 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/timeline-derby.png}
+	\caption{An example of an evidence based timeline as presented by Bjarnson and Regnells~\cite{Bjarnason2012}}
+	\label{figure:Timeline-Derby}
+\end{figure}
+
 
 \paragraph{Fishbone diagram - Ishikawa diagram}
 One of the cause analysis methods used is the Ishikawa diagram, commonly known as fishbone diagram. Dingsøyr~\cite{Dingsoyr2005} describes the process of fishbone diagrams as follows:
