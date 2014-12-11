@@ -125,16 +125,16 @@ Excluding articles not relevant for our research became the next step in obtaini
 		 	\multicolumn{2}{l}{Exclusion criteria}\\
 		 	\hline
 			1. & Exclude if the article have research domain other than computer science. \\
-			2. & Exclude if the article isn't an empirical study. Lessons learned articles, conference articles and books are in many cases not peer reviewed and we dismiss this as we wish this article to be based on high quality research. \\
+			2. & Exclude if the article isn't an empirical study. Lessons learned articles and books are in many cases not peer reviewed and we dismiss this as we wish this article to be based on high quality research. \\
 			3. & Exclude if the article clearly isn't within the research area of this article. This paper has focus on the software development processes and all articles focusing on technical aspects of software engineering or is in other research area than software development are not relevant. \\
 			4. & Exclude article if the focus isn't practices used in software development. \\
 		\end{tabular}
 	\end{center}
 \end{table}
 
-Starting with 1,754 papers the first step was to apply automatic filtering on research area given by the searching tools. The area we selected was computer science as all other areas are not relevant for this paper. The result of this filtering left us with 801 articles too continue with. 
+Starting with 1,754 papers the first step was to apply automatic filtering on research area given by the databases. The area we selected was computer science as all other areas are not relevant for this paper. The result of this filtering left us with 801 articles too continue with. 
 
-The next step in the filtering process was to exclude all papers not being peer-reviewed articles. This was also done by the searching tools automatic filtering. The article types we excluded were books, conference papers and reviews. This resulted in 266 articles left. 
+The next step in the filtering process was to exclude all papers not being peer-reviewed articles. This was also done by the databases automatic filtering. The article types we excluded were books and reviews. This resulted in 266 articles left. 
 
 Having obtained 266 articles of potential relevance for this review, excluding articles not fitting our needs became the next step. First we excluded based on title. If the title clearly described the article as not focusing on the development practices it were excluded, i.e. if an article clearly focused on a technical aspect of some computer system it were excluded. This resulted in 119 articles left in our data collection. 
 
@@ -147,7 +147,52 @@ Finally the filtering resulted in 48 peer-reviewed articles that were relevant t
 \clearpage
 
 \part{Results}
-The results from our literature review presented us with two primary views on how to evaluate the agile retrospective practices. The first one being the practices used when conducting an agile retrospective. The second one regards enthusiasm for the agile retrospective. Through the following sections we will present our findings on these two views. 
+The results from our literature review presented us with two primary views on how to evaluate the agile retrospective practices. The first one being the practices used when conducting an agile retrospective. The second one regards enthusiasm for the agile retrospective. Through this part we will present our findings on these two views, but first we will give an overview of the studies used in this literature review. 
+
+\section{Overview of Studies}
+
+
+\begin{table}[!h]
+	\centering
+	\caption{Studies by research method}
+	\label{table:studies-research-methods}
+	\begin{tabular}{ p{0.3\textwidth} p{0.3\textwidth} p{0.3\textwidth}}
+		\hline
+		Research method & Number & Percent \\ \hline
+		Single-case & 2 & 10.5 \\
+		Multiple-case & 6 & 31.6 \\
+		Experiment & 1 & 5.2 \\
+		Experience reports & 6 & 31.6 \\
+		Literature review & 1 & 5.2 \\
+		Other* & 3 & 15.7 \\
+		\\
+		Total & 19 & 100 \\ \hline
+	\end{tabular}
+	*``Other'' refers to methodology suggestions
+\end{table}
+
+\begin{table}[!h]
+	\centering
+	\caption{Studies by research method}
+	\label{table:studies-research-methods}
+	\begin{tabular}{ p{0.43\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.15\textwidth}}
+		\hline
+		Puplication channel & Type & Number & Percent \\ \hline
+		IEEE & Journal & 4 & 21 \\
+		Agile 20xx & Conference & 3 & 16 \\
+		Information and Software Technology & Journal & 3 & 16 \\
+		The Journal of Systems and Software & Journal & 2 & 11 \\
+		XP 20xx & Conference & 1 & 5 \\
+		IEEE  20xx & Conference & 1 & 5 \\
+		Profes 20xx & Conference & 1 & 5 \\
+		Empirical Software Engineering & Journal & 1 & 5 \\
+		ESERNET & Journal & 1 & 5 \\
+		Euromicro & Conference & 1 & 5 \\
+		Agile Retrospectives> Making Good Teams Great! & Book & 1 & 5 \\
+		\\
+		Total & & 19 & 100 \\ \hline
+	\end{tabular}
+\end{table}
 
 \section{Practices of the Agile Retrospective}
 One of our main findings reading through the selected article where that there are many ways to conduct a retrospective. Categorizing our findings we ended up with three phases a retrospective contains. These three are: before, during and after the retrospective meeting. We will go through each of these phases presenting our findings.
@@ -193,7 +238,7 @@ Positive strokes are a technique used during special events such as releases or 
 \paragraph{Timelines}
 In an agile retrospective the Timeline exercise is an exercise aimed at supporting the evaluation of the issues and changes within a project. Bjarnson and Regnell~\cite{Bjarnason2012} describes how timelines should be based on evidence, and that this evidence should be time-stamped data that is collected through available systems in the environment of the project. The need need for evidence is because the memory of a participant can be biased or incorrect. In preperation for the timeline activity the timeline should be sent out to the participants of the retrospective, along with a set of reports that will be discussed during the actual retrospective. As the retrospective begins the history of the project is visualized, typically by posting the timeline created on a wall or blackboard, this timeline usually goes from the start of the project, to the end. The timeline could also be tailored to just contain a sprint, iteration or release within the project. As issues and events are placed on the timeline they are discussed by the participants of the retrospective. The participants themself should correct incorrect events, as well as add their own if needed. As the timeline is corrected and clarification added the meeting produces a timeline of events and issues that the relevant participants agree upon. The patterns and tendencies that emerege from the project timeline are then considered and evaluated in order to facilitate potential improvements. As multiple timelines are produced using the same template, over time this makes comparision analysis simpler. 
 
-Derby~\cite{Derby2007} describes a process for a timeline activity, where the time spent is from thirty to ninety minutes. During the actual activity the retrospective leader should encourage all participants to engange in the discussion, with the goal of seeing the project from many perspective. The participants of the retrospective should be divided into multiple groups, where every member gets markers, and post it notes. The participants should then write their own issues during the project. These should be written down on color coded post its, where the color relates to a feeling or emotional state. Alternatively  the colors can represent events, functions or themes. When the groups are done filling out their post its, place them on the timeline. Let all the participants look at the created timeline, before taking a break or lunch. After the break the group should analyze the timeline, looking for interesting patterns that can be used for future improvements.
+Derby et al. ~\cite{Derby2007} describes a process for a timeline activity, where the time spent is from thirty to ninety minutes. During the actual activity the retrospective leader should encourage all participants to engange in the discussion, with the goal of seeing the project from many perspective. The participants of the retrospective should be divided into multiple groups, where every member gets markers, and post it notes. The participants should then write their own issues during the project. These should be written down on color coded post its, where the color relates to a feeling or emotional state. Alternatively  the colors can represent events, functions or themes. When the groups are done filling out their post its, place them on the timeline. Let all the participants look at the created timeline, before taking a break or lunch. After the break the group should analyze the timeline, looking for interesting patterns that can be used for future improvements.
 
 
 \begin{figure}[h!]
@@ -381,7 +426,7 @@ Dingsøyr~\cite{Dingsoyr2005} recommends considering the size of the company as 
 \section{Conclusion}
 Throughout this article we have evaluated agile retrospective practices and found their weaknesses and strengths based on existing literature. Our findings revealed that practices today provides a big variety of techniques each fitting for different kinds of goals. \todo{TODO: Include something about enthusiasm.} We do however believe there is a gap in current research considering the follow-up of issues identified in agile retrospectives. There seem to be few clearly defined processes/actions that handles this area. And we believe that this may be a reason for the falling enthusiasm of the retrospective. 
 
-Our contribution has been to create an overview of the existing literature on the research on agile retrospectives, where we have evaluated the strengths and weaknesses of practices and identified a possible gap in current literature. 
+Our contribution has been to create an overview of the existing literature on the research on agile retrospectives, where we have evaluated the strengths and weaknesses of practices and identified a possible gap in current literature. \todo{TODO: add something about practitioners!}
 
 \clearpage
 
