@@ -261,7 +261,7 @@ The facilitator can either be the project manager, or an external facilitator. A
 \section{During the Retrospective}
 The second phase of a complete agile retrospective is conducting the retrospective meeting. Here our literature review found that several different techniques were used in practices. Following we will describe techniques used and suggested by the research literature.
 
-\subsection{Techniques Identified}
+\subsection{Techniques Identified} \label{subsec:technqiues-identified}
 \subsubsection{KJ-sessions}
 KJ-sessions are often mentioned in the articles. Dingsøyr, Moe and Nytrø~\cite{Moe2001} describes how they conducted a KJ-session: 
 \begin{quote} We used a technique named after a Japanese ethnologist, Jiro Kawakita - called \"the KJ-method\". For each of these sessions, we give the participants a set of post-it notes, and ask them to write one \"issue\" on each. We usually hand out between three and five notes per person, depending on the number of participants. After some minutes, we ask one of them to attach one note to a whiteboard and say why this issue was important. Then the next person would present a note and so on until all the notes are on the whiteboard. The notes are then grouped, and each group is given a new name. 
@@ -305,7 +305,7 @@ Derby et al. ~\cite{Derby2007} describes a process for a timeline activity, wher
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\textwidth]{figures/Timeline-Example.png}
+	\includegraphics[width=\textwidth]{figures/Timeline-Example.png}
 	\caption{A very simple timeline showing a set of different issues over time, where the issues are color coded}
 	\label{figure:Timeline-Example}
 \end{figure}
@@ -315,7 +315,7 @@ In an agile retrospective the Timeline exercise is an exercise aimed at supporti
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=0.7\textwidth]{figures/timeline-derby.png}
+	\includegraphics[width=\textwidth]{figures/timeline-derby.png}
 	\caption{An example of an evidence based timeline as presented by Bjarnson and Regnells~\cite{Bjarnason2012}}
 	\label{figure:Timeline-Derby}
 \end{figure}
@@ -420,13 +420,13 @@ The four types of participants in a retrospective provides an overview of whom o
 	\captionsetup{justification=centering}
 	\caption{Participants, their roles and whether they should be included in a retrospective meeting.}
 	\label{table:participants}
-	\begin{tabular}{| l | l | p{0.3\textwidth} |}
+	\begin{tabular}{llp{0.3\textwidth}}
 		\hline
 		Participant Type: & Role: & Should Participate?\\ \hline
-		Team member & Knowledge contributer & Yes, as many as possible. \\ \hline
+		Team member & Knowledge contributer & Yes, as many as possible. \\
 		Manager & Knowledge contributer & No, can hinder open discussion \\
-		& Facilitator & \\ \hline
-		Customer & Knowledge contributer & No, changes focus from process improvement to customer relations \\ \hline
+		& Facilitator & \\ 
+		Customer & Knowledge contributer & No, changes focus from process improvement to customer relations \\
 		External facilitator & Facilitator & Yes, if possible \\ 
 		\hline
 	\end{tabular}
@@ -434,30 +434,36 @@ The four types of participants in a retrospective provides an overview of whom o
 
 
 \subsubsection{Preparing the Retrospective} \label{subsec:which-techniques}
-When all goal is set, participants decided and objective data collected one need to decide which techniques one should use during the actual meeting. The results of our literature review revealed several techniques to use. The choice of which technique to use should reflect the goal one has set for the retrospective. 
-\todo{TODO: Add connections with different type of goals and techniques}
+When all goal is set, participants decided and objective data collected one need to decide which techniques one should use during the actual meeting. The results of our literature review revealed several techniques to use. The choice of which technique to use should reflect the goal one has set for the retrospective. We have through our analytical approach grouped the different techniques listed in \autoref{subsec:technqiues-identified} into five types of goals that represents the process. These goals are ``Identify issues'', ``Improve estimations'', ``Feedback'', ``Problem understanding'' and 
+
+The KJ-sessions goal is to identify issues that exists withing a project. It requires a low cost consisting of only man-hours required for the meeting. 
 
 \begin{table}[!h]
 	\centering
 	\captionsetup{justification=centering}
-	\caption{An overview table of different retrospective exercises}
+	\caption{An overview table of different retrospective techniques}
 	\label{tabel:excercies_discussion}
-	\begin{tabular}{p{0.3\textwidth} p{0.3\textwidth} p{0.1\textwidth} p{0.17\textwidth}}
+	\makebox[\textwidth]{%
+	\begin{tabular}{p{0.3\textwidth}p{0.35\textwidth}p{0.1\textwidth}p{0.35\textwidth}}
 	\hline
 	Technique & Goal & Cost & Output \\ \hline
-	Kj-Sessions & Identify issues & Low & A set of grouped issues \\ 
-	Keep, Problem, Try & Identify issues & Low & One set of positive issues, one set of negative issues and one set of improvement actions. \\ 
+	KJ-Sessions & Identify issues & Low & A set of grouped issues \\ 
+	Keep, Problem, Try & Identify issues & Low & Set of positive issues \\
+	& & & Set of negative issues \\
+	& & & Set of improvement actions. \\ 
 	Estimation Retrospective & Improve estimations & Low & Insights for estimations \\ 
 	Experience Reports & Problem understanding &  Low & Experience related to contract issues, design and technology \\
-	Positive strokes & Individual feedback & Low & Individual feedback to each team member \\
-	Timelines & Identify issues & Medium & Creates an understandable outline of the issues during the project phase \\
-	Evidence based Timelines & Base issue identification on hard data. & Medium & Creates and understandable outline of the issues during project phase, but restrict the impact of memory bias \\
-	Fishbone & Analyze issues & Low & A diagram visualizing a set of causes for a problem. \\
-	Causal map analysis & Analyze issues & Low & Problem understanding \\
+	Positive strokes & Feedback & Low & Individual feedback to each team member \\
+	Timelines & Identify issues & Medium & Chronological outline of issues \\ 
+	Evidence based timelines & Evidence based issue identification & Medium & Chronological outline of evidence based issues \\
+	Fishbone & Problem understanding & Low & Issue analysis \\
+	& & & Improvements actions \\
+	Causal map analysis & Problem understanding & Low & Issue analysis \\
+	& & & Improvements actions \\
 	\hline
 	\end{tabular}
+	}
 \end{table}
-
 
 
 \subsubsection{Collect Data}
@@ -476,14 +482,16 @@ By using various techniques one can collect data to help prepare and improve the
 	\captionsetup{justification=centering}
 	\caption{Techniques for collecting data before a retrospective}
 	\label{table:data-collection}
-	\begin{tabular}{| l | l | p{0.3\textwidth} |}
-		\hline
-		Technique & Cost & Main Benefit \\ \hline
-		Survey & Low & Helps establish scope of retrospective as well as severity of issues. \\ \hline
-		Interviews & High & Obtains data in a personal context \\ \hline
-		Objective Data Collection & Low & Will help identify larger improvement opportunities. Helps focusing discussions. \\ \hline
-		\hline
-	\end{tabular}
+	\makebox[\textwidth]{%
+		\begin{tabular}{ l  l  p{0.6\textwidth} }
+			\hline
+			Technique & Cost & Main Benefit \\ \hline
+			Survey & Low & Helps establish scope of retrospective as well as severity of issues. \\
+			Interviews & High & Obtains data in a personal context \\
+			Objective Data Collection & Low & Will help identify larger improvement opportunities. Helps focusing discussions. \\
+			\hline
+		\end{tabular}
+	}
 \end{table}
 
 \subsection{During the Retrospective}
